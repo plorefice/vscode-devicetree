@@ -9,3 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial release
 - Grammar specification
 - Syntax highlighting
+
+## [0.1.0] - 2017-01-20
+### Added
+- DeviceTree logo as extension icon

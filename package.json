@@ -2,7 +2,7 @@
     "name": "devicetree",
     "displayName": "DeviceTree",
     "description": "DeviceTree Language Support for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "icon": "images/icon.png",
     "publisher": "plorefice",
     "author": {
