@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# script/bootstrap
+# Resolve all the dependencies required by the application to run.
+
+set -eu
+
+cd "$(dirname "$0")/.."
+
+# Check if a specific program is already installed and available
+check_installed()
+{
+	[ -n "$(command -v $1)" ] && return 0 || return 1
+}
+
+# vsce required for deploy
+if ! check_installed vsce; then
+	npm install -g vsce
+fi
+
