@@ -2,7 +2,7 @@
     "name": "devicetree",
     "displayName": "DeviceTree",
     "description": "DeviceTree Language Support for Visual Studio Code",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "icon": "images/icon.png",
     "publisher": "plorefice",
     "author": {
@@ -20,7 +20,7 @@
         "url": "https://github.com/plorefice/vscode-devicetree/issues"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
