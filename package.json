@@ -26,7 +26,7 @@
         "languages": [{
             "id": "dts",
             "aliases": ["DeviceTree", "dts"],
-            "extensions": [".dts",".dtsi"],
+            "extensions": [".dts",".dtsi", ".dtso"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
